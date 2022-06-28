@@ -8,6 +8,6 @@ virtual_media_policies = {
     description = "Asgard vMedia Policy"
     enable_low_power_usb = true
     enable_virtual_media = true
-    enable_virtual_media_encryption = false
+    enable_virtual_media_encryption = true
   }
 }
