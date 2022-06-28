@@ -7,8 +7,8 @@ flow_control_policies = {
   "Asgard_flowctrl" = {
     description = "Asgard Flow Control Policy"
     priority    = "auto"
-    receive     = "Enabled"
-    send        = "Enabled"
+    receive     = "Disabled"
+    send        = "Disabled"
     tags        = []
   }
 }
