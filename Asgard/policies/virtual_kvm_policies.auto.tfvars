@@ -4,7 +4,7 @@
 #______________________________________________
 
 virtual_kvm_policies = {
-  "Asgard_kvm" = {
+  "Asgard_vkvm" = {
     enable_virtual_kvm        = false
     description               = "Asgard Virtual KVM Policy"
     enable_local_server_video = true
