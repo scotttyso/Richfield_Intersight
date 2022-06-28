@@ -13,11 +13,27 @@ ucs_server_profiles = {
     ucs_server_profile_template = "VMware_M2_pxe"
     tags                        = []
   }
-  "heimdall09" = {
+  "heimdall26" = {
     action                      = "No-op"
     description                 = "heimdall09 Server Profile"
-    serial_number               = ""
-    server_assignment_mode      = "None"
+    serial_number               = "FCH243974WZ"
+    server_assignment_mode      = "Static"
+    ucs_server_profile_template = "VMware_M2_pxe"
+    tags                        = []
+  }
+  "heimdall27" = {
+    action                      = "No-op"
+    description                 = "heimdall09 Server Profile"
+    serial_number               = "FCH24397500"
+    server_assignment_mode      = "Static"
+    ucs_server_profile_template = "VMware_M2_pxe"
+    tags                        = []
+  }
+  "heimdall28" = {
+    action                      = "No-op"
+    description                 = "heimdall09 Server Profile"
+    serial_number               = "FCH243974V2"
+    server_assignment_mode      = "Static"
     ucs_server_profile_template = "VMware_M2_pxe"
     tags                        = []
   }
