@@ -4,7 +4,7 @@
 #______________________________________________
 
 ip_pools = {
-  "VMware_KVM" = {
+  "Asgard_KVM" = {
     assignment_order = "sequential"
     ipv4_blocks = [
       {
