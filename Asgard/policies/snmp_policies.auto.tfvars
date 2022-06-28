@@ -4,7 +4,7 @@
 #______________________________________________
 
 snmp_policies = {
-  "Asgard" = {
+  "Asgard_domain" = {
     description            = "Asgard SNMP Policy"
     enable_snmp            = true
     snmp_community_access  = ""
@@ -24,7 +24,7 @@ snmp_policies = {
       },
     }
   }
-  "Asgard_domain" = {
+  "Asgard_snmp" = {
     description            = "Asgard SNMP Policy"
     enable_snmp            = true
     snmp_community_access  = ""

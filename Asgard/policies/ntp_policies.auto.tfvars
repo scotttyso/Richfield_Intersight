@@ -4,8 +4,8 @@
 #______________________________________________
 
 ntp_policies = {
-  "heimdall-ucs" = {
-    description = "heimdall-ucs NTP Policy"
+  "Asgard_ntp" = {
+    description = "Asgard_ntp NTP Policy"
     enabled     = true
     timezone    = "America/New_York"
     ntp_servers = [

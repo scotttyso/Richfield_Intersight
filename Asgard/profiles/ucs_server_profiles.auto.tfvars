@@ -15,7 +15,6 @@ ucs_server_profiles = {
   }
   "heimdall09" = {
     action                      = "No-op"
-    bios_policy                 = "M6_VMware_tpm"
     description                 = "heimdall09 Server Profile"
     serial_number               = ""
     server_assignment_mode      = "None"

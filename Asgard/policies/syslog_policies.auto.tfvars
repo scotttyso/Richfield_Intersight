@@ -4,8 +4,8 @@
 #______________________________________________
 
 syslog_policies = {
-  "Asgard" = {
-    description        = "Asgard Syslog Policy"
+  "Asgard_domain" = {
+    description        = "Asgard Domain Syslog Policy"
     local_min_severity = "warning"
     remote_clients = [
       {
@@ -25,8 +25,8 @@ syslog_policies = {
     ]
     tags = []
   }
-  "Asgard_domain" = {
-    description        = "Asgard Domain Syslog Policy"
+  "Asgard_syslog" = {
+    description        = "Asgard Syslog Policy"
     local_min_severity = "warning"
     remote_clients = [
       {

@@ -4,7 +4,7 @@
 #______________________________________________
 
 local_user_policies = {
-  "Asgard" = {
+  "Asgard_users" = {
     always_send_user_password = false
     description               = "Asgard Local User Policy"
     enable_password_expiry    = false
