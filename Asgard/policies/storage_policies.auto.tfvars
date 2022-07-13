@@ -21,7 +21,6 @@ storage_policies = {
   }
   "Raid1" = {
     description              = "Raid1 Storage Configuration"
-    global_hot_spares        = ""
     unused_disks_state       = "NoChange"
     use_jbod_for_vd_creation = true
     drive_group = {
@@ -50,8 +49,6 @@ storage_policies = {
         }
       },
     }
-    m2_configuration                = {}
-    single_drive_raid_configuration = {}
-    tags                            = []
+    tags = []
   }
 }
