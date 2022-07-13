@@ -56,4 +56,35 @@ boot_order_policies = {
       },
     }
   }
+  "VMware_RAID_pxe" = {
+    boot_mode          = "Uefi"
+    description        = "VMware_M2_pxe Boot Order Policy"
+    enable_secure_boot = false
+    tags               = []
+    boot_devices = {
+      "KVM-DVD" = {
+        enabled     = true
+        object_type = "boot.VirtualMedia"
+        Subtype     = "kvm-mapped-dvd"
+      },
+      "RAID1" = {
+        bootloader_description = "OS"
+        bootloader_name        = "BOOTX64.EFI"
+        bootloader_path        = "\\EFI\\BOOT\\"
+        enabled                = true
+        object_type            = "boot.LocalDisk"
+        Slot                   = "MRAID"
+      },
+      "PXE" = {
+        enabled         = true
+        InterfaceName   = "MGMT-A",
+        InterfaceSource = "name",
+        IpType          = "IPv4",
+        MacAddress      = "",
+        object_type     = "boot.Pxe"
+        Port            = -1,
+        Slot            = "MLOM"
+      },
+    }
+  }
 }
