@@ -39,6 +39,7 @@ bios_policies = {
     lv_ddr_mode         = "auto",
     serial_port_aenable = "enabled",
     terminal_type       = "vt100",
+    tpm_support         = "disabled"
   }
   "M6_VMware_tpm" = {
     bios_template = "M6_Virtualization_tpm"
