@@ -44,14 +44,14 @@ variable "fc_zone_policies" {
       description           = optional(string)
       fc_target_zoning_type = optional(string)
       tags                  = optional(list(map(string)))
-      targets = optional(list(object(
+      targets = list(object(
         {
           name      = string
           switch_id = string
           vsan_id   = number
           wwpn      = string
         }
-      )))
+      ))
     }
   ))
 }
@@ -76,7 +76,7 @@ resource "intersight_fabric_fc_zone_policy" "fc_zone_policies" {
   dynamic "fc_target_members" {
     for_each = each.value.targets
     content {
-      name      = fc_target_members.value.name
+      name      = fc_target_members.key
       switch_id = fc_target_members.value.switch_id
       vsan_id   = fc_target_members.value.vsan_id
       wwpn      = fc_target_members.value.wwpn
