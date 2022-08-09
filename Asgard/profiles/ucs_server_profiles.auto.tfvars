@@ -15,8 +15,7 @@ ucs_server_profiles = {
   }
   "heimdall26" = {
     action                      = "No-op"
-    bios_policy                 = "M6_VMware"
-    description                 = "heimdall09 Server Profile"
+    description                 = "heimdall26 Server Profile"
     serial_number               = "FCH243974WZ"
     server_assignment_mode      = "Static"
     ucs_server_profile_template = "VMware_M2_pxe"
@@ -24,7 +23,7 @@ ucs_server_profiles = {
   }
   "heimdall27" = {
     action                      = "No-op"
-    description                 = "heimdall09 Server Profile"
+    description                 = "heimdall27 Server Profile"
     serial_number               = "FCH24397500"
     server_assignment_mode      = "Static"
     ucs_server_profile_template = "VMware_M2_pxe"
@@ -32,7 +31,7 @@ ucs_server_profiles = {
   }
   "heimdall28" = {
     action                      = "No-op"
-    description                 = "heimdall09 Server Profile"
+    description                 = "heimdall28 Server Profile"
     serial_number               = "FCH243974V2"
     server_assignment_mode      = "Static"
     ucs_server_profile_template = "VMware_M2_pxe"
