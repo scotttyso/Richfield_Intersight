@@ -14,6 +14,7 @@ san_connectivity_policies = {
     tags                 = []
     vhbas = {
       "HBA-A" = {
+        fc_zone_policies             = ["Pure02_A"]
         fibre_channel_adapter_policy = "VMware"
         fibre_channel_network_policy = "Fabric-A"
         fibre_channel_qos_policy     = "FC_QoS"
