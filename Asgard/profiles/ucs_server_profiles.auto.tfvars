@@ -15,6 +15,7 @@ ucs_server_profiles = {
   }
   "heimdall26" = {
     action                      = "No-op"
+    bios_policy                 = "M6_VMware"
     description                 = "heimdall09 Server Profile"
     serial_number               = "FCH243974WZ"
     server_assignment_mode      = "Static"
