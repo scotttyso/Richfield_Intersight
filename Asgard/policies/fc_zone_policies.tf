@@ -69,6 +69,7 @@ resource "intersight_fabric_fc_zone_policy" "fc_zone_policies" {
   for_each              = local.fc_zone_policies
   description           = each.value.description != "" ? each.value.description : "${each.key} FC Zone Policy"
   fc_target_zoning_type = each.value.fc_target_zoning_type
+  name                  = each.key
   organization {
     moid        = local.org_moid
     object_type = "organization.Organization"
